@@ -1,34 +1,343 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
-    <script>
-      L2Dwidget.init({
-          "model": {
-              jsonPath: "https://unpkg.com/live2d-widget-model-shizuku/assets/shizuku.model.json",
-              "scale": 1
-          },
-          "display": {
-              "position": "left",
-              "width": 150,
-              "height": 300,
-              "hOffset": 0,
-              "vOffset": -20
-          },
-          "mobile": {
-              "show": true,
-              "scale": 0.5
-          },
-          "react": {
-              "opacityDefault": 1,
-              "opacityOnHover": 1
-          }
-      });
-  </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>My blog</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
+    <!-- Font Awesome -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Slick slider -->
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <!-- Gallery Lightbox -->
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
+
+    <!-- Main Style -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+
+    <!-- Open Sans for body font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+    <!-- Poppins for Title -->
+  	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+ 
+ 
+	
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
+  	
+  	<!-- Start Header -->
+	<header id="mu-header" class="" role="banner">
+		<div class="container">
+			<nav class="navbar navbar-default mu-navbar">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+
+		      <!-- Text Logo -->
+
+		      <!-- Image Logo -->
+		      <!-- <a class="navbar-brand" href="#"><img src="assets/images/logo.png"></a> -->
+
+
+		    </div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav mu-menu navbar-right">
+						<li><a href="#">Home</a></li>
+						<li><a href="#mu-about">About me</a></li>
+						<li><a href="#mu-service">Skills</a></li>
+						<li><a href="#mu-contact">Contact</a></li>
+					</ul>
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		</div>
+	</header>
+	<!-- End Header -->
+
+	<!-- Start Featured Slider -->
+
+	<section id="mu-featured-slider">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mu-featured-area">
+						<h1>Yangtao Jiang</h1>
+
+						<!-- Start text slide -->
+						<div class="mu-featured-slider-wrapper">
+							<div class="mu-featured-slider" id="typed-strings">
+								<p>I am <span>Full stack</span></p>
+								<p>I am <span>Web Developer</span></p>
+		   					<p>I am <span>Service Developer</span></p>
+							</div>
+							<span id="typed"></span>
+						</div>
+						<!-- Start text slide -->
+						
+						<div class="mu-featured-content">
+							<p>Pain is temporary. It may last a minute, or an hour, or a day, or even a year, but eventually it will subside and something else will take it's place. If I quit, however, it lasts forever.</p>
+							<a href="https://github.com/jiangyangtao" class="mu-primary-btn view-my-work-btn">View my open source project</a>
+						</div>
+
+					</div>
+				</div>			
+			</div>
+		</div>
+	</section>
+	
+	<!-- Start Featured Slider -->
+	
+	<!-- Start main content -->
+		
+	<main role="main">
+
+		<!-- Start About -->
+		<section id="mu-about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-about-area">
+
+							<div class="mu-about-header">
+								<h2 class="mu-heading-title">About Me</h2>
+								<span class="mu-header-dot"></span>
+								<p>My name is Yangtao Jiang. I am professional <strong>Full Stack</strong> and <strong>Web Developer</strong> and <strong>Service Developer</strong>. I have Rich working experience and very strong learning ability, want to be an architect in the future.</p>
+							</div>
+
+							<!-- Start About Us Content -->
+							<div class="mu-about-content">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="mu-about-content-left">
+											<img class="mu-profile-img" src="assets/images/head.jpg" alt="Profile Image">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="mu-about-content-right">
+											<div style="margin-bottom: 15px;">Graduation of time: 2015/07/01</div>
+											<div style="margin-bottom: 15px;">Work start time: 2014/10/29</div>
+											<div style="margin-bottom: 15px;">Work experience: 6 year</div>
+											<div style="margin-bottom: 15px;">Professional: Computer programming</div>
+											<div style="margin-bottom: 15px;">Record of formal schooling: junior college</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End About Us Content -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End About -->
+
+		<!-- Start Service -->
+		<section id="mu-service">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-service-area">
+
+							<div class="mu-service-header">
+								<h2 class="mu-heading-title">Skills</h2>
+								<span class="mu-header-dot"></span>
+								<p>I have and grasp multiple skills, contains web and service and database. Of which, main skill of service is microsoft technology stack. I can write and using framework, for example: micro service architecture.</p>
+							</div>
+							<div class="col-md-6">
+									<div class="mu-about-content-left">
+											<div class="mu-skill-progress-bar">
+												<h3>Web</h3>
+												<span>Html5</span>
+												<div class="mu-pro-bar mu-html5-bar" percentage="90" year="5">														
+												</div>
+												<span>css/css3</span>
+												<div class="mu-pro-bar mu-css-bar" percentage="90" year="4">													 
+												</div>
+												<span>javascript</span>
+												<div class="mu-pro-bar mu-javascript-bar" percentage="95" year="5">
+												</div>
+												<span>Webpack</span>
+												<div class="mu-pro-bar mu-webpack-bar" percentage="80" year="2">
+												</div>
+												<span>Vue</span>
+												<div class="mu-pro-bar mu-vue-bar" percentage="90" year="2">
+												</div>
+											</div>
+											<div class="mu-skill-progress-bar">
+												<h3>Database</h3>
+												<span>Sql Server</span>
+												<div class="mu-pro-bar mu-mssql-bar" percentage="95" year="5">
+													
+												</div>
+												<span>My Sql</span>
+												<div class="mu-pro-bar mu-mysql-bar" percentage="85" year="3">
+													
+												</div>
+												<span>Oracle</span>
+												<div class="mu-pro-bar mu-oracle-bar" percentage="50" year="1">
+												</div>
+												<span>Sqlite</span>
+												<div class="mu-pro-bar mu-sqlite-bar" percentage="60" year="1">
+												</div>
+											</div>
+									</div>
+								</div>
+							<div class="col-md-6">
+									<div class="mu-about-content-right">
+											<div class="mu-skill-progress-bar">
+												<h3>Service</h3>
+												<span>Dotnet Core</span>
+												<div class="mu-pro-bar mu-dotnetcore-bar" percentage="90" year="2">														
+												</div>
+												<span>Dotnet Framework</span>
+												<div class="mu-pro-bar mu-dotnet-bar" percentage="98" year="5">														
+												</div>
+												<span>Entity Framework</span>
+												<div class="mu-pro-bar mu-ef-bar" percentage="95" year="4">
+												</div>
+												<span>Entity Framework Core</span>
+												<div class="mu-pro-bar mu-efcore-bar" percentage="90" year="2">
+												</div>
+												<span>C#</span>
+												<div class="mu-pro-bar mu-csharp-bar" percentage="99" year="5">
+												</div>
+											</div>
+											<div class="mu-skill-progress-bar">
+												<h3>Other</h3>
+												<span>Git</span>
+												<div class="mu-pro-bar mu-git-bar" percentage="90" year="2">													
+												</div>
+												<span>VS Code</span>
+												<div class="mu-pro-bar mu-vscode-bar" percentage="90" year="3">													
+												</div>
+												<span>VS 2017</span>
+												<div class="mu-pro-bar mu-visualstudio-bar" percentage="90" year="2">
+												</div>
+											</div>	
+									</div>
+								</div>							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Service -->
+
+		<!-- Start Contact -->
+		<section id="mu-contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-contact-area">
+
+							<div class="mu-contact-header">
+								<h2 class="mu-heading-title">Contact Me</h2>
+								<span class="mu-header-dot"></span>
+								<p>Now I live in shenzhen china, and working is here.</p>
+							</div>
+
+							<!-- Start Contact Content -->
+							<div class="mu-contact-content">
+								<div class="row">
+
+									<div class="col-md-12">
+										<div class="mu-contact-top">
+
+											<div class="row">
+												<div class="col-sm-6">
+													<div class="mu-contact-top-single">
+														<div class="mu-icon"><i class="fa fa-map-marker"></i></div>
+														<p>Shenzhen, China</p>
+													</div>
+												</div>
+												<div class="col-sm-6">
+													<div class="mu-contact-top-single">
+														<div class="mu-icon"><i class="fa fa-envelope"></i></div>
+														<p>jiangyangtao1@outlook.com</p>
+														<p>jiangyangtao1@gmail.com</p>
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>	
+								</div>
+							</div>
+							<!-- End Contact Content -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Contact -->
+
+	</main>
+	
+	<!-- End main content -->	
+			
+			
+	<!-- Start footer -->
+	<footer id="mu-footer" role="contentinfo">
+			<div class="container">
+				<div class="mu-footer-area">
+					<!-- <p class="mu-copy-right">Copyright &copy; 2019. Yangtao</p> -->
+				</div>
+			</div>
+
+	</footer>
+	<!-- End footer -->
+
+	
+	
+    <!-- jQuery library -->
+    <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+	<!-- Slick slider -->
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <!-- Filterable Gallery js -->
+    <script type="text/javascript" src="assets/js/jquery.filterizr.min.js"></script>
+    <!-- Gallery Lightbox -->
+    <script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Ajax contact form  -->
+    <script type="text/javascript" src="assets/js/app.js"></script>
+	<!-- Featured Slider -->
+    <script type="text/javascript" src="assets/js/typed.min.js"></script>
+    <!-- On scroll JS  -->
+    <script src="assets/js/jquery.appear.js"></script>
+	<!-- Progress Bar -->
+    <script type="text/javascript" src="assets/js/jquery.lineProgressbar.js"></script>
+    
+	
+    <!-- Custom js -->
+	<script type="text/javascript" src="assets/js/custom.js"></script>
+
+	
+	
+    
   </body>
 </html>
