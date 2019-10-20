@@ -16,8 +16,8 @@
 			duration: 1000,
 
 			// Styling Options
-			fillBackgroundColor: '#3498db',
-			backgroundColor: '#EEEEEE',
+            fillBackgroundColor: '#6ad7f1',
+            backgroundColor: '#e0e0e0',
 			radius: '0px',
 			height: '10px',
 			width: '100%'
@@ -27,8 +27,6 @@
 			// Markup
 			$(el).html('<div class="progressbar"><div class="proggress"></div><div class="percentCount"></div></div>');
 			
-
-
 			var progressFill = $(el).find('.proggress');
 			var progressBar= $(el).find('.progressbar');
 
@@ -52,15 +50,12 @@
 				{	
 					step: function(x) {
 						if(options.ShowProgressCount){
-							var text = Math.round(x) + "%";
-							if(options.text) text =options.text + ' / ' + Math.round(x) + "%";
-							$(el).find(".percentCount").text(text);
+							$(el).find(".percentCount").text(Math.round(x) + "%");
 						}
 					},
 					duration: options.duration
 				}
 			);
-		////////////////////////////////////////////////////////////////////
 		});
 	}
 })(jQuery);
